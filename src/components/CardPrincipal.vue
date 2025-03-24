@@ -1,14 +1,7 @@
 <script setup>
 //metodos
-import Card from './Card.vue';
 </script>
-
 <template>
-  <!--Estructura html-->
-  <div class="container">
-
-    <h1 class="text-center">MASCOTAS</h1>
-    <!--iNICIO DEL PRIMER ROW-->
     <div class="row">
       <div class="col-md-6">
         <div class="card">
@@ -31,14 +24,5 @@ import Card from './Card.vue';
         </div>
       </div>
     </div>
-    <!-- CIERRE DEL PRIMER ROW -->
-    <!--INICIO DEL SEGUNDO ROW-->
-    <Card />
-    <!--CIERRE DEL SEGUNDO ROW-->
-    
-  </div>
+
 </template>
-
-<style scoped>
-
-</style>
